@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.co.japps.fasilkes.activities.SplashActivity"
+    android:background="@color/background_app">
+
+
+    <ImageView
+        android:id="@+id/icon_app"
+        android:layout_width="172dp"
+        android:layout_height="172dp"
+        android:src="@drawable/icon_faskes"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/textViewApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lebih Mudah Cari Fasilitas Kesehatan. . ."
+        android:textColor="@color/colorTextDefault"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/icon_app"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+</RelativeLayout>
